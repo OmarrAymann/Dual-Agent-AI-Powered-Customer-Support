@@ -1,2 +1,29 @@
-# Dual-Agent-AI-Powered-Customer-Support
-This project implements a dual-agent AI customer support system combining cloud-based capabilities via Microsoft Copilot Studio with an on-premise LLM-powered agent. Both agents are integrated into a unified customer portal to handle user queries, execute dynamic tasks, and enforce business logic using real-time API communication.
+# Dual-Agent AI-Powered Customer Support  
+**Cloud Agent (Copilot Studio) + On-Premise Agent Integration**
+
+This project implements a hybrid AI-powered customer support system using two coordinated agents:
+
+- A **cloud-based agent** built and deployed with **Microsoft Copilot Studio**
+- A **local agent** deployed within internal infrastructure using **containerized LLMs**
+
+The system enables real-time customer interaction, dynamic task execution, and secure access to business logic via live API endpoints. It’s designed for use cases requiring data residency, regulatory compliance, and flexible AI deployment in financial or enterprise environments.
+
+---
+
+## 🔧 Features
+
+### Cloud Agent – Microsoft Copilot Studio
+
+- Conversational flows, fallback handling, and NLU intent mapping  
+- Embedded chat widget in the customer portal  
+- Connected to live backend APIs via Copilot’s built-in connectors  
+- Dynamic routing based on user inputs and context
+
+### On-Premise Agent
+
+- Containerized LLM runtime with offline support options  
+- Custom intent recognition and state management  
+- Integrated via secure internal APIs or microservices  
+- Enforces internal business rules and compliance policies
+
+---
